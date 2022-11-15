@@ -1,0 +1,78 @@
+header{
+	background-color: black;
+	align-items: center;
+}
+li a{
+	text-align: right;
+	text-decoration: none;
+	text-align-last: right;
+	padding: 30px;
+}
+#navbarSupportedContent{
+	height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ul{
+	text-align: center;
+	padding: 30px;
+	display: inline;
+}
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+.container-fluid{
+	color: red;
+}
+img{
+	width: 100%;
+    height: auto;
+    border: 5px solid red;
+}
+section1{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+}
+p1{
+	text-align: center;
+}
+li a{
+	color: white;
+}
+ul a{
+	text-decoration: none;
+	color: white;
+}
+ul a:hover{
+	color: red;
+}
+div p:hover{
+	color: red;
+}
+#head{
+	text-align: left;
+	justify-content: center;
+}
+.img-fluid{
+	width: 100px;
+	height: 100px;
+	border: none;
+}
+#carouselExampleIndicators{
+  position: relative;
+  text-align: center;
+  color: yellowgreen;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  size: 200px;
+  font-size: 50px;
+}
