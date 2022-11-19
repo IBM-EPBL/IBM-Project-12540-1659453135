@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+      *{
+	padding :0;
+	margin:  0;
+	box-sizing: border-box;
+}
+.head{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+header{
+	background-color: black;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.logo{
+	color: white;
+	font-size: 28px;
+}
+span{
+	color: yellow;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: #ea1538;
+	transition: .3s;
+}
+button{
+	border: none;
+	background: #ea1538;
+	padding: 12px 30px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	transition: .4s;
+}
+button:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+
+}
+img{
+	width: 100%;
+    height: auto;
+    border: 5px solid red;
+}
+p1{
+	text-align: center;
+}
+
+
+
+      </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <div class="head">
+  <header>
+    <nav>
+      <h2 class="logo"><span>Natural Disasters Intensity Analysis and Classification using Artifical Intelligence</span></h2>
+      <ul>
+        <li><a link rel="stylesheet" type="text/css" href="#">Home</a></li>
+        <li><a link rel="stylesheet" type="text/css" href="#">About</a></li>
+        <li><a link rel="stylesheet" type="text/css" href="#">Responsibilty</a></li>
+        <li><a link rel="stylesheet" type="text/css" href="#">Services</a></li>
+        <li><a link rel="stylesheet" type="text/css" href="#">Singup/login</a></li>
+      </ul>
+      <button type="buton">Account</button>
+    </nav>
+  </div>
+  </header>
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="data:image/jpeg;base64,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"  alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>WILDFIRE</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQXI7SBb6tODZi4XbtIkywgFhSuXJpv41FzSxL5ND8usG-hZhghrN6A_bZk0G4uZWbvU&usqp=CAU" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CYCLONE</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR9HHHJmOqTgYSrsnG1TMU5aSiUXy1qDvqR-gT0uwgY_Av3oDms" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>EARTHQUAKE</h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<br>
+<main>
+  <camera>
+  <div class="d-grid gap-2 col-6 mx-auto" color:red>
+  <button class="btn btn-primary" type="file"><a class="nav-link active" aria-current="page" href="https://zephar-leviathan.github.io/OpenCam/">Open Camera</a></button>
+  </camera>
+  <p1>or</p1>
+  <div class="upload-btn-wrapper">  
+  <button class="btn btn-primary">upload a file</button>
+    <input type="file" name="myfile" />
+  </div>
+</div>
+</main>
+<footer>
+  
+  
+
+
+
+
+</footer>
+</body>
+</html>
